@@ -1,0 +1,9 @@
+.homepage-tab .nav-item .nav-link{
+    background-color: white;
+    color: #00224f;
+    font-size: 14px;
+}
+.homepage-tab .nav-item .nav-link.active{
+    background-color: #00224f;
+    color: white;
+}

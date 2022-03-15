@@ -1,0 +1,130 @@
+#insurance-page-card-button-dark-blue{
+    font-size: 14px;
+    font-weight: bold;
+}
+#insurance-page-card-button-light-blue{
+    font-size: 14px;
+    font-weight: bold;
+}
+#insurance-page-card-button-dark-blue:hover{
+    background-color: white;
+    color: #121825;
+}
+
+#insurance-page-card-button-light-blue:hover{
+    background-color: white;
+    color: #1f698d;
+}
+
+#insurance-page-button{
+    background-color: #1f698d;
+    color: white;
+}
+
+#insurance-page-button:hover{
+    background-color: #121825;
+    color: white;
+}
+
+#airportTaxi-page-button{
+    background-color: #003580;
+    border: 1px solid white;
+    color: white;
+    width: 230px;
+}
+
+#airportTaxi-page-button:hover{
+    background-color: #ffffff25;
+}
+
+#btn-login{
+    background-color: #0071c2;
+}
+
+#btn-login:hover{
+    background-color: #003580;
+}
+
+#btn-register{
+    background-color: #0071c2;
+}
+#btn-register:hover{
+    background-color: #003580;
+}
+
+#insuranceResults-page-button-dark-blue{
+    background-color: #003580;
+    border: 1px solid white;
+    color: white;
+}
+
+#insuranceResults-page-button-dark-blue:hover{
+    background-color: white;
+    border: 1px solid #003580;
+    color: #003580;
+}
+
+#ambulance-page-button-dark-blue{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white;
+    color: #3d5779;
+}
+
+#ambulance-page-button-dark-blue:hover{
+    background-color: #3d5779;
+    color: white;
+    border: 2px solid white;
+}
+
+#ambulance-page-button-blue{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white;
+    color: #4195d2;
+}
+
+#ambulance-page-button-blue:hover{
+    background-color: #4195d2;
+    color: white;
+    border: 2px solid white;
+}
+
+#ambulance-page-button-red{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white;
+    color: #ff4040;
+}
+
+#ambulance-page-button-red:hover{
+    background-color: #ff4040;
+    color: white;
+    border: 2px solid white;
+}
+
+#ambulance-page-button-black{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white;
+    color: #404040;
+}
+
+#ambulance-page-button-black:hover{
+    background-color: #404040;
+    color: white;
+    border: 2px solid white;
+}
+
+#ambulance-page-button{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+}
+
+#ambulance-page-button:hover{
+    background-color: #003580;
+    color: white;
+    border: 2px solid white;
+}

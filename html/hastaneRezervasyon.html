@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/mdb.min.css">
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/mdb.min.js"></script>
+    <title>Document</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.2.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.2.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.2.0/dist/js/swiffy-slider-extensions.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.2.0/dist/js/swiffy-slider-extensions.min.js"></script>
+
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+</head>
+<!-- Text Container-->
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-dark py-3" style="background-color: #2286AA; color: white;">
+        <div class="container">
+            <a href="Homapage.html" class="navbar-brand">World<span style="color: crimson;">In</span><span style="color: coral;">Health</span></a>
+            <span class="w-50" id="flagModal">
+                <span class="w-50">
+                    <div class="text-end">
+                            <a href="#" id="myBtn2"><img class="country-flags me-2" src="../img/flags/turkey.png" alt=""></a>
+                    </div>
+                </span>
+            </span>
+            <button class="navbar-toggler" data-bs-target="#navbarCollapse" data-bs-toggle="collapse">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse pe-5" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="navbar-item">
+                        <a href="Homapage.html" class="nav-link fw-bold" style="color: rgb(230, 230, 230);">Anasayfa</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="organizationRegister.html" class="nav-link fw-bold" style="color: rgb(230, 230, 230);">Kuruluşunuzu Kaydedin</a>
+                    </li>
+
+
+
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="myModal" class="modal">
+        <div class="modal-content mt-3" style="background-color: white; width: 900px;">
+            <div class="row">
+                <div class="col justify-content-end">
+                    <span class="close2">&times;</span>
+                </div>
+            </div>
+            <h3 class="text-dark"><strong>Dilinizi Seçin</strong></h3>
+            <h6 class="pt-3 text-dark"><strong>Sizin İçin Önerilenler</strong></h6>
+            <div class="row my-2">
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/united-states.png" alt=""> English (US)</a>
+                </div>
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/united-kingdom.png" alt=""> English (UK)</a>
+                </div>
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/germany.png" alt=""> Deustch</a>
+                </div>
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/italy.png" alt=""> Italiano</a>
+                </div>
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/france.png" alt=""> Français</a>
+                </div>
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/spain.png" alt=""> Español</a>
+                </div>
+            </div>
+            <h6 class="pt-3 text-dark"><strong>Tüm Diller</strong></h6>
+            <div class="row my-2">
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/turkey.png" alt=""> Türkçe</a>
+                </div>
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/united-states.png" alt=""> English (US)</a>
+                </div>
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/united-kingdom.png" alt=""> English (UK)</a>
+                </div>
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/germany.png" alt=""> Deustch</a>
+                </div>
+            </div>
+            <div class="row my-2">
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/france.png" alt=""> Deustch</a>
+                </div>
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/italy.png" alt=""> Italiano</a>
+                </div>
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/russia.png" alt=""> Русский</a>
+                </div>
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/saudi-arabia.png" alt=""> العربية</a>
+                </div>
+            </div>
+            <div class="row my-2">
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/netherlands.png" alt=""> Nederlands</a>
+                </div>
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/france.png" alt=""> Français</a>
+                </div>
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/spain.png" alt=""> Español</a>
+                </div>
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/mexico.png" alt=""> Español (MX)</a>
+                </div>
+            </div>
+            <div class="row my-2">
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/portugal.png" alt=""> Português (PT)</a>
+                </div>
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/brazil.png" alt=""> Português (BR)</a>
+                </div>
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/finland.png" alt=""> Suomi</a>
+                </div>
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/sweden.png" alt=""> Svenska</a>
+                </div>
+            </div>
+            <div class="row my-2">
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/denmark.png" alt=""> Dansk</a>
+                </div>
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/czech-republic.png" alt=""> Čeština</a>
+                </div>
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/romania.png" alt=""> Română</a>
+                </div>
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/japan.png" alt=""> 日本語</a>
+                </div>
+            </div>
+            <div class="row my-2">
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/china.png" alt=""> 简体中文</a>
+                </div>
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/bulgaria.png" alt=""> Български</a>
+                </div>
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/ukraine.png" alt=""> Українська</a>
+                </div>
+                <div class="col-sm-2 w-25 flags p-2 pt-3">
+                    <a href="#" style="text-decoration: none; color: black;"><img class="country-flags me-2" src="../img/flags/poland.png" alt=""> Polski</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-image" style="background-image: url(img/rezervasyon-bg.jpg);height: 130vh;">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.404);">
+            <div class="mt-5">
+                <h1 class="d-flex justify-content-center align-items-center" style="color: rgba(255, 255, 255, 0.815);">Kuruluşunuzu rezerve edin
+                </h1>
+                <div class="d-flex justify-content-center align-items-center">
+                    <form style="width: 46rem;">
+
+                        <label class="form-label mt-4 text-white" for="form2Example17">Kullanıcı Adı</label>
+                        <input type="text" id="form2Example17" class="form-control form-control-lg border border-3 border-primary" />
+
+                        <label class="form-label mt-4 text-white" for="form2Example18">TC Kimlik No</label>
+                        <input type="text" id="form2Example18" class="form-control form-control-lg border border-3 border-primary" />
+
+                        <label class="form-label mt-4 text-white" for="form2Example19">E-mail Adresi</label>
+                        <input type="email" id="form2Example19" class="form-control form-control-lg border border-3 border-primary" />
+
+                        <label class="form-label mt-4 text-white" for="form2Example19">Şube Seçiniz</label>
+                        <select name="" id="" class="form-select  border border-primary border-3 ">
+                            <option value="0" selected>Branş Seçiniz</option>
+                            <option value="1">Cildiye</option>
+                            <option value="2">Kulak Burun Boğaz</option>
+                            <option value="3">Kardiyoloji</option>
+                        </select>
+
+
+
+                        <label class="form-label mt-4 text-white" for="form2Example28">Telefon</label>
+                        <input type="password" id="form2Example28" class="form-control form-control-lg border border-3 border-primary" />
+                        <label class="form-label mt-4 text-white" for="form2Example29">Ev Adresi</label>
+                        <input type="password" id="form2Example29" class="form-control form-control-lg border border-3 border-primary" />
+
+                        <div class="row text-center">
+                            <div class="col-sm-5 ms-4">
+                                <label class="form-label mt-4 text-white" for="tarih5">Rezervasyon Başlangıç Tarihi</label>
+                                <input class="form-control-lg border border-3 border-primary ms-3" id="tarih5" type="text" placeholder="Gidiş Tarihi">
+                            </div>
+                            <div class="col-sm-5 ms-5">
+                                <label class="form-label mt-4 text-white" for="tarih6">Rezervasyon Bitiş Tarihi</label>
+                                <input class="form-control-lg border border-3 border-primary ms-4" id="tarih6" type="text" placeholder="Dönüş Tarihi">
+
+                            </div>
+                        </div>
+
+                        <div class="pt-3 mb-4">
+                            <button class="btn btn-info btn-lg btn-block" type="button">Rezervasyon Yap</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script>
+    $(function() {
+
+        $("#tarih5").datepicker({
+
+            dateFormat: "dd-mm-yy",
+            altFormat: "yy-mm-dd",
+            altField: "#tarih-db",
+            monthNames: ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"],
+            dayNamesMin: ["Pa", "Pt", "Sl", "Ça", "Pe", "Cu", "Ct"],
+            firstDay: 1
+        });
+
+    });
+</script>
+<script>
+    $(function() {
+
+        $("#tarih6").datepicker({
+
+            dateFormat: "dd-mm-yy",
+            altFormat: "yy-mm-dd",
+            altField: "#tarih-db",
+            monthNames: ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"],
+            dayNamesMin: ["Pa", "Pt", "Sl", "Ça", "Pe", "Cu", "Ct"],
+            firstDay: 1
+        });
+
+    });
+</script>
